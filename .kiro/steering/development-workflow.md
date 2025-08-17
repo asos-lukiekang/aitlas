@@ -7,6 +7,14 @@
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint checks
 
+## Working with Users - Execution Guidelines
+
+- **Do exactly what is asked, then stop** - Don't anticipate next steps unless explicitly requested
+- **Break work into small chunks** - When users say "first" or indicate incremental work, respect those boundaries
+- **Ask before proceeding** - After completing a specific request, ask if the user wants to continue or review
+- **Pay attention to scope indicators** - Words like "first", "just", "only", "start with" indicate limited scope
+- **Confirm understanding** - If a request seems to have multiple parts, clarify which part to focus on
+
 ## Code Quality
 
 - Run linting before committing code

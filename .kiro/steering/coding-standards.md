@@ -51,3 +51,15 @@
 - Use meaningful test descriptions
 - Follow AAA pattern (Arrange, Act, Assert)
 - Mock external dependencies appropriately
+- Place test files next to their relevant source files (e.g., `component.tsx` → `component.test.tsx`)
+- Use React Testing Library for component testing
+- Focus on testing user behavior, not implementation details
+- Use semantic queries (`getByRole`, `getByLabelText`) over implementation details
+- Test file naming: `ComponentName.test.tsx`, `page.test.tsx`, `utils.test.ts`
+
+### Test Commands
+
+- `npm test` - Run all tests once
+- `npm run test:watch` - Run tests in watch mode
+
+See [Testing Documentation](../docs/testing.md) for detailed guidelines.
