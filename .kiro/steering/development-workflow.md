@@ -17,10 +17,19 @@
 
 ## Code Quality
 
-- Run linting before committing code
-- Fix all TypeScript errors before deployment
-- Use consistent formatting (consider adding Prettier)
-- Write meaningful commit messages
+- **Always run linting before committing code** - Use `npm run lint` to check for issues
+- **Fix minor linting issues automatically** - Address warnings about unused imports, formatting, etc.
+- **Resolve all TypeScript errors** - Never commit code with TypeScript compilation errors
+- **Use consistent formatting** - Follow established code style patterns
+- **Write meaningful commit messages** - Describe what changed and why
+
+### Pre-Commit Checklist
+
+1. Run `npm run lint` and fix any issues
+2. Run `npm test` to ensure all tests pass
+3. Fix any TypeScript compilation errors
+4. Remove unused imports and variables
+5. Ensure consistent code formatting
 
 ## Feature Development Process
 
