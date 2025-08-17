@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Features
+
+- **Reaction Time Game** - Test your reflexes with a simple reaction time game at `/reaction-time`
+- **TypeScript** - Full type safety throughout the application
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **Testing** - Jest and React Testing Library with colocated tests
+
+## Documentation
+
+- [Testing Guidelines](docs/testing.md) - Testing setup and best practices
+
 ## Getting Started
 
 First, run the development server:
@@ -13,6 +24,15 @@ pnpm dev
 # or
 bun dev
 ```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm test` - Run tests
+- `npm run test:watch` - Run tests in watch mode
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
